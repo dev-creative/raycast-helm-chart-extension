@@ -49,7 +49,6 @@ function SearchListItem({ searchResult }: { searchResult: SearchResult }) {
       subtitle={searchResult.description}
       accessories={[{ text: searchResult.username }]}
       icon={{ source: searchResult.icon }}
-      quickLook={{ name: "hello", path: "world" }}
       actions={
         <ActionPanel>
           <ActionPanel.Section>
